@@ -2,19 +2,42 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# LeaderLess
 
-This contains everything you need to run your app locally.
+> 팀플에서 조장의 부담을 덜어주는 서비스이다.
+> 목표 : AI를 활용하여 '조장의 부담'을 없애자
 
-View your app in AI Studio: https://ai.studio/apps/af478d51-d274-4635-9505-3e35593cadf8
+<br>
 
-## Run Locally
+## 문제 정의
 
-**Prerequisites:**  Node.js
+현재 사용자들은 ________ 과정에서 다음과 같은 어려움을 겪고 있습니다.
 
+- 팀플 수행 과정에서 조장의 심리적 압박이 큼
+- 팀플에서 무임승차하는 팀원들이 많고, 이들에게 독촉 문자 보내는 것에 부담을 느낌
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+본 프로젝트는 이러한 문제를 해결하기 위해 기획되었습니다.
+
+---
+
+## 핵심 기능
+
+### 자료 피드백 기능
+- 팀원이 조사한 자료에 대해 AI가 자동 분석하여 잘한 점과 개선할 점을 제시한다.
+
+---
+
+## 기술 스택
+
+### Frontend
+- React
+- TypeScript
+
+### Backend
+- Node.js
+
+### AI
+- Gemini API
+
+### Deployment
+- Vercel
